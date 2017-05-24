@@ -15,7 +15,7 @@ New-PnPList -Title <String>
 ## Parameters
 Parameter|Type|Required|Description
 ---------|----|--------|-----------
-|Template|ListTemplateType|True|The type of list to create.|
+|Template|ListTemplateType|True|The type of list to create. Available list templates (https://msdn.microsoft.com/en-us/library/office/jj245053.aspx).|
 |Title|String|True|The Title of the list|
 |EnableContentTypes|SwitchParameter|False|Switch parameter if content types should be enabled on this list|
 |EnableVersioning|SwitchParameter|False|Switch parameter if versioning should be enabled|
