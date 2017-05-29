@@ -49,7 +49,7 @@ Parameter|Type|Required|Description
 |DisplayName|String|True|The display name of the field|
 |Field|FieldPipeBind|True|The name of the field, its ID or an actual field object that needs to be added|
 |InternalName|String|True|The internal name of the field|
-|Type|FieldType|True|The type of the field like Choice, Note, MultiChoice|
+|Type|FieldType|True|The type of the field like Choice, Note, MultiChoice. Available FieldTypes (https://msdn.microsoft.com/en-us/library/microsoft.sharepoint.client.fieldtype.aspx?f=255&MSPPError=-2147217396).|
 |AddToDefaultView|SwitchParameter|False|Switch Parameter if this field must be added to the default view|
 |Choices|String[]|False|Specify choices, only valid if the field type is Choice|
 |Group|String|False|The group name to where this field belongs to|
