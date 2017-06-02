@@ -21,7 +21,7 @@ Add-PnPView -Title <String>
 ## Parameters
 Parameter|Type|Required|Description
 ---------|----|--------|-----------
-|Fields|String[]|True|A list of fields to add.|
+|Fields|String[]|True|A list of fields to add. Both Display Names and Internal Names work.|
 |List|ListPipeBind|True|The ID or Url of the list.|
 |Title|String|True|The title of the view.|
 |Paged|SwitchParameter|False|If specified, the view will have paging.|
